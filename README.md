@@ -61,7 +61,6 @@ The API will be available at:
 http://localhost:8080
 ```
 
----
 
 ## 🧪 Postman Testing
 
@@ -71,8 +70,9 @@ You can test all APIs using this shared Postman collection:
 👉 **[View on Postman](https://documenter.getpostman.com/view/34796608/2sB3Wk14eP)** 
 
 
-### make sure to Login first vie:
+### make sure to Login first via:
+```
 **POST** `/auth/login`
+```
 so that the jwt Token will be saved as an enviroment global variable(bearer token section)  Automatically to be able to test all the other endpoints
 
-```

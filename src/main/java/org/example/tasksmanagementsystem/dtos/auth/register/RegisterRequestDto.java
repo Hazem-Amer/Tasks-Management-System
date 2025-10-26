@@ -1,4 +1,4 @@
-package org.example.tasksmanagementsystem.dtos.register;
+package org.example.tasksmanagementsystem.dtos.auth.register;
 
 public class RegisterRequestDto {
     public String email;

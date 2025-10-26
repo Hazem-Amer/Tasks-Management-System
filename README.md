@@ -40,7 +40,7 @@ cd task-management-system
 #### For MySQL:
 Edit `src/main/resources/application.properties`:
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/task_management
+spring.datasource.url=jdbc:mysql://localhost:3306/taskdb?allowPublicKeyRetrieval=true&useSSL=false
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update

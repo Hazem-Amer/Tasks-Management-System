@@ -23,4 +23,10 @@ public class Task extends BaseEntity{
     @JoinColumn(name = "user_id")
     private User owner;
 
+    public Task(String title, String description, User owner) {
+        this.title = title;
+        this.description = description;
+        this.owner = owner;
+    }
+
 }

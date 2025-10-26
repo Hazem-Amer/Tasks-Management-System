@@ -11,6 +11,7 @@ This project demonstrates clean code organization, authentication/authorization 
 - **Role-based Authorization**
 - **Task Management** (CRUD)
 - **Global Exception Handling**
+- **Unit Testing** using Mockito
 - **Postman Tests with Token Reuse**
 
 ---

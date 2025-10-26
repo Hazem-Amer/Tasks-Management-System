@@ -4,7 +4,7 @@ package org.example.tasksmanagementsystem.service;
 import org.example.tasksmanagementsystem.dtos.tasks.TaskRequestDto;
 import org.example.tasksmanagementsystem.dtos.tasks.TaskResponse;
 import org.example.tasksmanagementsystem.dtos.tasks.TaskUpdateRequestDto;
-import org.example.tasksmanagementsystem.model.Status;
+import org.example.tasksmanagementsystem.model.enums.Status;
 import org.example.tasksmanagementsystem.model.Task;
 import org.example.tasksmanagementsystem.model.User;
 import org.example.tasksmanagementsystem.repository.TaskRepository;

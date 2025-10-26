@@ -1,11 +1,9 @@
 package org.example.tasksmanagementsystem.security;
 
 import lombok.AllArgsConstructor;
-import org.example.tasksmanagementsystem.model.Authorities;
+import org.example.tasksmanagementsystem.model.enums.Authorities;
 import org.example.tasksmanagementsystem.repository.UserRepository;
-import org.springframework.context.annotation.Bean;
 
-import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

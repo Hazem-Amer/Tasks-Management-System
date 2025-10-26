@@ -36,6 +36,10 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequestDto req) {
         LoginResponseDto res = authService.login(req);
+        if(res.accessToken==null){
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+                    .body(Map.of("message", "Invalid credentials"));
+        }
         return ResponseEntity.ok().body(
                 ResponseModel.builder()
                         .timeStamp(LocalDateTime.now().toString())

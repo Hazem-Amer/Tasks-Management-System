@@ -2,6 +2,7 @@ package org.example.tasksmanagementsystem.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.example.tasksmanagementsystem.model.enums.Status;
 
 @Entity
 @Getter

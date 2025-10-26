@@ -33,7 +33,7 @@ public class AuthService {
 
     public void register(RegisterRequestDto req) {
         if (userRepository.existsByEmail(req.email)) {
-            throw new IllegalArgumentException("Email already in use");
+            throw new IllegalArgumentException("Email already registered");
         }
         String hashed = passwordEncoder.encode(req.password);
         User user = new User(req.name, req.email, hashed);
